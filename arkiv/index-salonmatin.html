@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Salon Matin – frisør og barber på Frederiks Allé, Aarhus C</title>
+  <meta name="description" content="Herreklip, skin fade og skæg til fair priser på Frederiks Allé 140 i Aarhus C. Book online eller drop ind. Åben fra kl. 7 på hverdage.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400;75..125,600;75..125,800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { ink: '#1B1B1B', gron: '#1E5A3A', mint: '#DCEFE3', linje: '#E5E2DC', graa: '#5F5C57' },
+          fontFamily: { sans: ['Archivo', 'system-ui', 'sans-serif'] },
+        },
+      },
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    .tight { font-variation-settings: "wdth" 88; letter-spacing: -0.02em; }
+    .frame img { display: block; width: 100%; height: 100%; object-fit: cover; }
+    .hero-shade { background: linear-gradient(to top, rgba(27,27,27,.9) 0%, rgba(27,27,27,.45) 55%, rgba(27,27,27,.2) 100%); }
+  </style>
+</head>
+<body class="font-sans bg-white text-ink antialiased pb-20 sm:pb-0">
+
+  <!-- Nav -->
+  <header class="border-b border-linje bg-white">
+    <nav class="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between gap-4" aria-label="Hovedmenu">
+      <a href="#top" class="tight font-extrabold text-2xl leading-none">Salon Matin</a>
+      <div class="flex items-center gap-5 text-sm font-semibold">
+        <a href="#priser" class="hidden sm:inline hover:text-gron">Priser</a>
+        <a href="#frisoerer" class="hidden sm:inline hover:text-gron">Frisører</a>
+        <a href="#find-os" class="hidden sm:inline hover:text-gron">Find os</a>
+        <a href="tel:+4586194409" class="hidden sm:inline hover:text-gron">86 19 44 09</a>
+        <a href="https://salon-matin.planway.com/" target="_blank" rel="noopener" class="hidden sm:inline-block bg-gron text-white px-4 py-2 rounded-md hover:bg-ink">Book tid</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero: fuldt billede. Læg billedet i img/hero.jpg -->
+  <section id="top" class="relative h-[78vh] min-h-[520px] bg-gron">
+    <div class="frame absolute inset-0"><img src="img/hero.jpg" alt="Skin fade i stolen hos Salon Matin" onerror="this.remove()"></div>
+    <div class="hero-shade absolute inset-0"></div>
+    <div class="relative h-full max-w-6xl mx-auto px-5 flex flex-col justify-end pb-12 md:pb-16 text-white">
+      <h1 class="tight font-extrabold text-5xl leading-[0.98] md:text-7xl max-w-3xl">
+        Klip, skæg og skin fade. Fair priser, og du kan bare komme forbi.
+      </h1>
+      <p class="mt-5 text-lg md:text-xl text-white/85 max-w-xl">
+        Frisør og barber på Frederiks Allé i Aarhus C. 4,7 stjerner på Google fra knap 400 kunder.
+      </p>
+      <div class="mt-7 flex flex-wrap gap-3">
+        <a href="https://salon-matin.planway.com/" target="_blank" rel="noopener" class="inline-block bg-white text-ink font-semibold px-6 py-3 rounded-md hover:bg-mint focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white">Book tid online</a>
+        <a href="#priser" class="inline-block border-2 border-white text-white font-semibold px-6 py-3 rounded-md hover:bg-white/10">Se priser</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tre korte fakta -->
+  <div class="bg-mint">
+    <div class="max-w-6xl mx-auto px-5 py-5 grid sm:grid-cols-3 gap-3 text-center sm:text-left font-semibold">
+      <p>Hverdage 7–17, lørdag 8–14.</p>
+      <p>Drop-in er velkommen, der kan være lidt ventetid.</p>
+      <p>5 % studierabat med gyldigt studiekort.</p>
+    </div>
+  </div>
+
+  <!-- Priser med tid og book-knap pr. ydelse -->
+  <section id="priser">
+    <div class="max-w-6xl mx-auto px-5 py-16 md:py-24">
+      <h2 class="tight font-extrabold text-4xl md:text-6xl">Priser</h2>
+      <p class="mt-4 text-graa max-w-xl">Samme priser som i online-booking. Har du voks i håret, lægges 20 kr. til for hårvask.</p>
+      <div class="mt-10 grid md:grid-cols-2 gap-x-16">
+        <div>
+          <h3 class="font-semibold text-gron text-lg">Hår</h3>
+          <ul class="mt-3 divide-y divide-linje">
+            <li class="py-4 flex items-center gap-4"><div class="flex-1"><p class="text-lg font-semibold">Herreklip</p><p class="text-sm text-graa">30 min</p></div><p class="font-semibold whitespace-nowrap">220 kr.</p><a href="https://salon-matin.planway.com/" target="_blank" rel="noopener" class="text-sm font-semibold text-gron border border-gron px-3 py-1.5 rounded-md hover:bg-mint">Book</a></li>
+            <li class="py-4 flex items-center gap-4"><div class="flex-1"><p class="text-lg font-semibold">Skin fade</p><p class="text-sm text-graa">30 min</p></div><p class="font-semibold whitespace-nowrap">230 kr.</p><a href="https://salon-matin.planway.com/" target="_blank" rel="noopener" class="text-sm font-semibold text-gron border border-gron px-3 py-1.5 rounded-md hover:bg-mint">Book</a></li>
+            <li class="py-4 flex items-center gap-4"><div class="flex-1"><p class="text-lg font-semibold">Maskine over hele hovedet</p><p class="text-sm text-graa">15 min</p></div><p class="font-semibold whitespace-nowrap">120 kr.</p><a href="https://salon-matin.planway.com/" target="_blank" rel="noopener" class="text-sm font-semibold text-gron border border-gron px-3 py-1.5 rounded-md hover:bg-mint">Book</a></li>
+            <li class="py-4 flex items-center gap-4"><div class="flex-1"><p class="text-lg font-semibold">Hårvask</p><p class="text-sm text-graa">Tilvalg</p></div><p class="font-semibold whitespace-nowrap">40 kr.</p><span class="w-[62px]"></span></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-gron text-lg mt-8 md:mt-0">Skæg og kombinationer</h3>
+          <ul class="mt-3 divide-y divide-linje">
+            <li class="py-4 flex items-center gap-4"><div class="flex-1"><p class="text-lg font-semibold">Skæg eller barbering</p><p class="text-sm text-graa">15 min</p></div><p class="font-semibold whitespace-nowrap">150 kr.</p><a href="https://salon-matin.planway.com/" target="_blank" rel="noopener" class="text-sm font-semibold text-gron border border-gron px-3 py-1.5 rounded-md hover:bg-mint">Book</a></li>
+            <li class="py-4 flex items-center gap-4"><div class="flex-1"><p class="text-lg font-semibold">Herreklip og skæg</p><p class="text-sm text-graa">45 min</p></div><p class="font-semibold whitespace-nowrap">320 kr.</p><a href="https://salon-matin.planway.com/" target="_blank" rel="noopener" class="text-sm font-semibold text-gron border border-gron px-3 py-1.5 rounded-md hover:bg-mint">Book</a></li>
+            <li class="py-4 flex items-center gap-4"><div class="flex-1"><p class="text-lg font-semibold">Skin fade og skæg</p><p class="text-sm text-graa">45 min</p></div><p class="font-semibold whitespace-nowrap">330 kr.</p><a href="https://salon-matin.planway.com/" target="_blank" rel="noopener" class="text-sm font-semibold text-gron border border-gron px-3 py-1.5 rounded-md hover:bg-mint">Book</a></li>
+            <li class="py-4 flex items-center gap-4"><div class="flex-1"><p class="text-lg font-semibold">Maskine og barbering</p><p class="text-sm text-graa">30 min</p></div><p class="font-semibold whitespace-nowrap">220 kr.</p><a href="https://salon-matin.planway.com/" target="_blank" rel="noopener" class="text-sm font-semibold text-gron border border-gron px-3 py-1.5 rounded-md hover:bg-mint">Book</a></li>
+            <li class="py-4 flex items-center gap-4"><div class="flex-1"><p class="text-lg font-semibold">Næsehår med voks</p><p class="text-sm text-graa">Tilvalg</p></div><p class="font-semibold whitespace-nowrap">40 kr.</p><span class="w-[62px]"></span></li>
+          </ul>
+        </div>
+      </div>
+      <p class="mt-8 text-sm text-graa">Afbud senest 1 time før din tid, ellers koster det 100 kr. Gavekort kan købes i salonen.</p>
+    </div>
+  </section>
+
+  <!-- Frisører: sæt navne og billeder på. img/f1.jpg, f2.jpg, f3.jpg -->
+  <section id="frisoerer" class="bg-ink text-white">
+    <div class="max-w-6xl mx-auto px-5 py-16 md:py-24">
+      <h2 class="tight font-extrabold text-4xl md:text-6xl">Dem, der klipper dig</h2>
+      <p class="mt-4 text-white/75 max-w-xl">Folk booker en frisør, ikke en salon. Vælg din, når du booker.</p>
+      <div class="mt-10 grid grid-cols-3 gap-3 md:gap-6">
+        <div><div class="frame aspect-[3/4] rounded-lg overflow-hidden bg-gron"><img src="img/f1.jpg" alt="" onerror="this.remove()"></div><p class="mt-3 font-semibold">Frisør</p><p class="text-sm text-white/70">Herreklip og fades</p></div>
+        <div><div class="frame aspect-[3/4] rounded-lg overflow-hidden bg-gron"><img src="img/f2.jpg" alt="" onerror="this.remove()"></div><p class="mt-3 font-semibold">Barber</p><p class="text-sm text-white/70">Skæg og barbering med kniv</p></div>
+        <div><div class="frame aspect-[3/4] rounded-lg overflow-hidden bg-gron"><img src="img/f3.jpg" alt="" onerror="this.remove()"></div><p class="mt-3 font-semibold">Frisør</p><p class="text-sm text-white/70">Klip til hele familien</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Anmeldelser fra Google -->
+  <section>
+    <div class="max-w-6xl mx-auto px-5 py-16 md:py-24">
+      <h2 class="tight font-extrabold text-4xl md:text-6xl">Det siger kunderne</h2>
+      <p class="mt-4 text-graa">Fra Google, hvor salonen har 4,7 stjerner.</p>
+      <div class="mt-10 grid md:grid-cols-3 gap-8 text-lg">
+        <blockquote class="border-l-4 border-gron pl-5"><p>"Bedste frisør i Aarhus, og især til prisen."</p><footer class="mt-3 text-sm text-graa">Martin, kunde i 10 år</footer></blockquote>
+        <blockquote class="border-l-4 border-gron pl-5"><p>"Mine bedste anbefalinger, fin salon, behagelig og professionel betjening."</p><footer class="mt-3 text-sm text-graa">Ole</footer></blockquote>
+        <blockquote class="border-l-4 border-gron pl-5"><p>"Mega god salon."</p><footer class="mt-3 text-sm text-graa">Pedram</footer></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galleri: klipninger. img/g1.jpg til g6.jpg -->
+  <section class="bg-mint">
+    <div class="max-w-6xl mx-auto px-5 py-16 md:py-24">
+      <div class="flex items-end justify-between gap-4 flex-wrap">
+        <h2 class="tight font-extrabold text-4xl md:text-6xl">Klipninger</h2>
+        <a href="https://www.instagram.com/salon_matin/" target="_blank" rel="noopener" class="font-semibold underline underline-offset-4 hover:text-gron">Se flere på Instagram</a>
+      </div>
+      <div class="mt-8 grid grid-cols-3 gap-2 md:gap-3">
+        <div class="frame aspect-square rounded-md overflow-hidden bg-white"><img src="img/g1.jpg" alt="Skin fade" onerror="this.remove()"></div>
+        <div class="frame aspect-square rounded-md overflow-hidden bg-white"><img src="img/g2.jpg" alt="Herreklip" onerror="this.remove()"></div>
+        <div class="frame aspect-square rounded-md overflow-hidden bg-white"><img src="img/g3.jpg" alt="Skægtrim" onerror="this.remove()"></div>
+        <div class="frame aspect-square rounded-md overflow-hidden bg-white"><img src="img/g4.jpg" alt="Klassisk klipning" onerror="this.remove()"></div>
+        <div class="frame aspect-square rounded-md overflow-hidden bg-white"><img src="img/g5.jpg" alt="Barbering" onerror="this.remove()"></div>
+        <div class="frame aspect-square rounded-md overflow-hidden bg-white"><img src="img/g6.jpg" alt="Salonen indefra" onerror="this.remove()"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Find os + tider -->
+  <section id="find-os">
+    <div class="max-w-6xl mx-auto px-5 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-start">
+      <div>
+        <h2 class="tight font-extrabold text-4xl md:text-6xl">Find os</h2>
+        <p class="mt-6 text-lg leading-relaxed">På Frederiks Allé, lige hvor Jægergårdsgade starter. Bussen stopper næsten ved døren, og der er parkering i sidegaderne.</p>
+        <address class="mt-6 not-italic text-lg space-y-2">
+          <p>Frederiks Allé 140, st.<br>8000 Aarhus C</p>
+          <p><a href="tel:+4586194409" class="font-semibold underline underline-offset-4 hover:text-gron">86 19 44 09</a></p>
+          <p><a href="mailto:matin140@hotmail.com" class="font-semibold underline underline-offset-4 hover:text-gron">matin140@hotmail.com</a></p>
+        </address>
+        <table class="mt-6 w-full max-w-sm text-lg">
+          <tbody class="divide-y divide-linje">
+            <tr><td class="py-2">Mandag til fredag</td><td class="py-2 text-right font-semibold">7–17</td></tr>
+            <tr><td class="py-2">Lørdag</td><td class="py-2 text-right font-semibold">8–14</td></tr>
+            <tr><td class="py-2">Søndag</td><td class="py-2 text-right text-graa">Lukket</td></tr>
+          </tbody>
+        </table>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="https://www.instagram.com/salon_matin/" target="_blank" rel="noopener" class="inline-block border-2 border-ink font-semibold px-5 py-2.5 rounded-md hover:bg-mint">Instagram</a>
+          <a href="https://www.facebook.com/salonmatin" target="_blank" rel="noopener" class="inline-block border-2 border-ink font-semibold px-5 py-2.5 rounded-md hover:bg-mint">Facebook</a>
+        </div>
+      </div>
+      <div class="rounded-lg overflow-hidden bg-mint aspect-[4/3] md:aspect-[4/5]">
+        <iframe
+          title="Kort over Salon Matin, Frederiks Allé 140, Aarhus"
+          src="https://www.google.com/maps?q=Frederiks%20All%C3%A9%20140%2C%208000%20Aarhus%20C&output=embed"
+          width="100%" height="100%" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-ink text-white">
+    <div class="max-w-6xl mx-auto px-5 py-10 flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+      <div>
+        <p class="tight font-extrabold text-2xl">Salon Matin</p>
+        <p class="mt-1 text-white/60">Frederiks Allé 140, 8000 Aarhus C</p>
+      </div>
+      <p class="text-sm text-white/45">Udkast lavet af Ron, 53 61 36 99, ronnyhong723@gmail.com</p>
+    </div>
+  </footer>
+
+  <!-- Fast book-knap på mobil -->
+  <div class="sm:hidden fixed bottom-0 inset-x-0 p-3 bg-white border-t border-linje">
+    <a href="https://salon-matin.planway.com/" target="_blank" rel="noopener" class="block text-center bg-gron text-white font-semibold py-3 rounded-md">Book tid online</a>
+  </div>
+
+</body>
+</html>
